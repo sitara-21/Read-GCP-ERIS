@@ -21,5 +21,5 @@ def read_bucket_file(file_path, sep="\t", comment='t', header=None):
 if __name__ == '__main__':
     # Read the labels DataFrame
     df_path = 'gs://bucket_name/file.bed'
-    labels_df = read_bucket_file(df_path)
-    print(labels_df.head())
+    df = read_bucket_file(df_path)
+    print(df.head())
