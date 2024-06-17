@@ -2,7 +2,7 @@
 ## Google Cloud SDK
 This script utilizes gsutil tool that is part of the Google Cloud SDK and is used for accessing Google Cloud Storage. You need to install Google Cloud SDK using the [[link](https://cloud.google.com/sdk/docs/install)] and in Desktop folder (recommended). Or if you want to install using terminal, navigate to project directory and install SDK by following this:
 ```
-.sh curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-367.0.0-darwin-x86_64.tar.gz
+curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-367.0.0-darwin-x86_64.tar.gz
 tar -xf google-cloud-sdk-367.0.0-darwin-x86_64.tar.gz
 ./google-cloud-sdk/install.sh
 ```
